@@ -1,0 +1,20 @@
+ //Zahin Rojs
+ //September 10, 2017
+ //Lab 1- First C++ program with mistakes
+
+ #include <iostream>
+ using namespace std;
+
+ int main()
+ {
+         cout << "Greetings Earth"                           << endl
+         //There is a semicolon missing in line 10
+         cout << "We Come in      Peace"                     << endl;
+         cout << "To Teach you C++                           << endl;
+         //There are no end quotes in line 13
+         cout << "Let's change the world with our creations" << endl;
+         cout << "We are the new innovators"                 << endl;
+
+         return0;
+        //Because there is no space between the return and 0 the program does    n't know it's supposed to end
+ }
